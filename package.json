@@ -1,0 +1,18 @@
+{
+  "name": "starcore-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp construido sobre @itsliaaa/starcore con sistema de plugins/middleware integrado.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@itsliaaa/starcore": "latest",
+    "baileys": "^7.0.0-rc14"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
